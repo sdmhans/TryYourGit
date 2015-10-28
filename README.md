@@ -28,7 +28,7 @@
 
 ## Task 6
 
-提交一个Pull-Request请求到https://github.com/ThssSE/TryYourGit，将学号分支提交给该主版本库的signin分支。
+提交一个Pull-Request请求到 https://github.com/ThssSE/TryYourGit ，将学号分支提交给该主版本库的signin分支。
 
 如果没有出现conflicts，恭喜！
 
