@@ -14,11 +14,23 @@
 
 请将Fork的仓库clone到你的本机，然后基于signin分支的最新commit，创建一个名为你的学号的新分支，比如学号为2011013236的同学，需要创建一个分支并命名为2011013236，以下简称该分支为学号分支。
 
+```
+git clone https://github.com/ThssSE/TryYourGit.git
+cd TryYourGit
+```
+
 ## Task 4
 
 切换至学号分支，在SignIn目录中创建一个新文件，命名为“你的学号.txt”，比如学号为2011013236的同学，需要创建的文件是“2011013236.txt”，文件内容为也为你的学号。
 
 将新添加的文件加入版本库，使之被暂存（staged）。
+
+```
+git checkout signin
+git checkout -b 201533333
+echo 201533333 > SignIn/201533333.txt
+git add SignIn/201533333.txt
+```
 
 ## Task 5
 
@@ -26,9 +38,16 @@
 
 完成提交后，把学号分支push到你的Fork仓库去。
 
+```
+git commit -m "Task 5"
+git push -u origin 201533333
+```
+
 ## Task 6
 
 提交一个Pull-Request请求到 https://github.com/ThssSE/TryYourGit ，将学号分支提交给该主版本库的signin分支。
+
+//在github页面操作
 
 如果没有出现conflicts，恭喜！
 
